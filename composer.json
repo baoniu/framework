@@ -1,0 +1,13 @@
+{
+	"require":{
+			"symfony/class-loader":"@stable",
+	  		"symfony/http-foundation":"@stable",
+	  		"symfony/routing":"@stable",
+			"symfony/http-kernel":"@stable",
+	  		"symfony/event-dispatcher":"@stable",
+	  		"symfony/dependency-injection":"@stable"
+		  },
+  	"autoload":{
+	  "psr-0": { "Simplex":"src/" , "Calendar":"src/" }
+	}
+}
